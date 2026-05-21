@@ -1,0 +1,19 @@
+import '../styles/NotFound404.scss'
+
+const NotFound404 = () => {
+    return (
+        <main className='main-404'>
+            <div className='not-found-404'>
+                <div>404</div>
+            </div>
+            <div className='not-found-info'>
+                <h3>Oop! The page you're looking for doesn't exist</h3>
+            </div>
+            <div className='return-to-home'>
+                 <a href='#' className='anchor-footer'>Return to home page</a>
+            </div>
+        </main>
+    )
+}
+
+export default NotFound404

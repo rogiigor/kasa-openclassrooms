@@ -1,0 +1,18 @@
+$menu-color: black;
+
+.nav-menu {
+    margin-right: 80px;
+    margin-top: 40px;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 80px;
+        .anchor-menu {
+            color: $menu-color;
+        }
+    }
+}
+
