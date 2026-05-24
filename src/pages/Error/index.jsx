@@ -1,8 +1,8 @@
-import '../styles/NotFound404.scss'
+import './Error.scss'
 
-const NotFound404 = () => {
+const Error = () => {
     return (
-        <main className='main-404'>
+        <div className='main-404'>
             <div className='not-found-404'>
                 <div>404</div>
             </div>
@@ -12,8 +12,8 @@ const NotFound404 = () => {
             <div className='return-to-home'>
                  <a href='#' className='anchor-footer'>Return to home page</a>
             </div>
-        </main>
+        </div>
     )
 }
 
-export default NotFound404
+export default Error
