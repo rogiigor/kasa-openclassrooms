@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Error.scss'
 
 const Error = () => {
@@ -10,7 +11,7 @@ const Error = () => {
                 <h3>Oop! The page you're looking for doesn't exist</h3>
             </div>
             <div className='return-to-home'>
-                 <a href='#' className='anchor-footer'>Return to home page</a>
+                 <Link to='/' className='anchor-footer'>Return to home page</Link>
             </div>
         </div>
     )

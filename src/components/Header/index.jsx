@@ -8,8 +8,8 @@ const Header = () => {
             <div className='header-content'>
                 <img src={logo} alt='Kasa logo' className='kasa-logo' />
                 <nav className='nav'>
-                    <a href='#' className='nav-link'>Home</a>
-                    <a href='#' className='nav-link'>About</a>
+                    <Link to='/' className='nav-link'>Home</Link>
+                    <Link to='/about' className='nav-link'>About</Link>
                 </nav>
             </div>    
         </header>

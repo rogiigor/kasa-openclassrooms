@@ -1,0 +1,29 @@
+.property-card {
+  border-radius: 12px;
+  padding: 1.5rem;
+  // display: flex;
+  // gap: 1rem;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  height: 30%;
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+}
+
+.property-title {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+}
+
