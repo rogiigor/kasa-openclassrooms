@@ -3,13 +3,25 @@
 .open-button {
     background-color: variables.$main-red-color;
     color: white;
-    width: 100%;
+    width: 90%;
     text-align: left;
     height: 3.5rem;
     font-weight: bold;
     font-size: 23px;
 }
 
+button:focus {
+    outline: none;
+}
+
 .collapse-container {
     margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+.info-details {
+    margin-top: 0;
+    background-color: #F2F2F2;
+    width: 85%;
+    padding: 30px;
 }

@@ -7,7 +7,7 @@ const Collapsable = ({ info }) => {
             <div className='collapse-container'>
                 <button onClick={() => setIsOpen(false)} className='open-button'>{info.title}</button>
                 <div className='info-details'>
-                    <p>{info.definition}</p>
+                    {info.definition}
                 </div>
             </div>
         ) : (

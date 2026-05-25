@@ -29,9 +29,11 @@
 
 .properties-container {
     background-color: #F2F2F2;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 10px;
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     border-radius: 20px;
+    row-gap: 40px;
 }
