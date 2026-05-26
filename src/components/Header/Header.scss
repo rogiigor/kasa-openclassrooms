@@ -1,16 +1,26 @@
 $menu-color: black;
 
+.header {
+  padding: 1rem 2rem;
+  top: 0;
+  z-index: 100;
+}
+
 .nav {
     display: flex;
     flex-direction: row;
-    margin-right: 460px;
-    margin-top: 40px;
+    margin-right: 2%;
+    margin-top: 1%;
     font-size: 24px;
     font-family: 'Montserrat';
     gap: 1.5rem;
     align-items: center;
     .nav-link {
         color: $menu-color;
+        text-decoration: none;
+        &.active {
+            text-decoration: underline;
+        }
     }
 }
 
@@ -21,8 +31,7 @@ $menu-color: black;
 }
 
 .kasa-logo {
-    padding: 20px 20px 20px 230px;
-    margin: 20px 20px 20px 230px;
+    margin-left: 2%;
     img {
          height: 80px;
          width: 250px;

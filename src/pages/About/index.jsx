@@ -8,9 +8,9 @@ import './About.scss'
 const About = () => {
     return (
         <div className="page">
-            <div className='page'>
+            {/* <div className='page'> */}
                 <img src={aboutImage} alt="mountains over river" className="about-image" />
-            </div>
+            {/* </div> */}
 
             <div className="values-container">
                 {valuesData.map((value) => (
