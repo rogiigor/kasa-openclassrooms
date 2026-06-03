@@ -3,7 +3,7 @@
 .open-button {
     background-color: variables.$main-red-color;
     color: white;
-    width: 90%;
+    width: var(--cl-width);
     text-align: left;
     height: 3.5rem;
     font-weight: bold;
@@ -23,6 +23,16 @@ button:focus {
 .info-details {
     margin-top: 0;
     background-color: #F2F2F2;
-    width: 85%;
+    width: var(--cl-width);
     padding: 30px;
+
+    &__array-element {
+        color: variables.$main-red-color;
+        font-size: 1.3rem;
+    }
+
+    &__string {
+        color: variables.$main-red-color;
+        font-size: 1.3rem;
+    }
 }

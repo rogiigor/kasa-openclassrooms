@@ -56,16 +56,16 @@ const PropertyDetail = () => {
                     </div>
                     <div className='property-detail__rating'>
                         {Array.from({ length: Number(property.rating) }).map((_, index) => (
-                            <i key={index} class="fa-solid fa-star fa-active" aria-hidden="true"></i>
+                            <i key={index} className="fa-solid fa-star fa-active" aria-hidden="true"></i>
                         ))}
                         {Array.from({ length: 5 - Number(property.rating) }).map((_, index) => (
-                            <i key={index} class="fa-solid fa-star fa-inactive" aria-hidden="true"></i>
+                            <i key={index} className="fa-solid fa-star fa-inactive" aria-hidden="true"></i>
                         ))}
                     </div>
                 </section>
                 <section className='property-detail__description-and-amenities'>
-                        <Collapsable info={property.description}/>
-                        <Collapsable info={property.equipments}/>
+                        <Collapsable title={"Description"} info={property.description} width={"600px"}/>
+                        <Collapsable title={"Amenities"} info={property.equipments} width={"600px"}/>
                 </section>
             </div>
         </div>

@@ -8,13 +8,11 @@ import './About.scss'
 const About = () => {
     return (
         <div className="page">
-            {/* <div className='page'> */}
-                <img src={aboutImage} alt="mountains over river" className="about-image" />
-            {/* </div> */}
+            <img src={aboutImage} alt="mountains over river" className="about-image" />
 
             <div className="values-container">
                 {valuesData.map((value) => (
-                    <Collapsable key={value.title} info={value} />
+                    <Collapsable key={value.title} title={value.title} info={value.definition} width={"90%"}/>
                 ))}
             </div>
         </div>
