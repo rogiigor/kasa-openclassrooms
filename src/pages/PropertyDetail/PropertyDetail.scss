@@ -1,0 +1,97 @@
+@use '../../styles/variables';
+
+@mixin display {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin position {
+  width: 115%;
+  margin-left: -8%;  
+}
+
+@mixin host-name {
+    color: variables.$main-red-color;
+    font-weight: 400;
+    text-align: right;
+}
+
+$title-weight: 400;
+
+.property-detail {
+    &__cover {
+        background-color: variables.$main-background-color;
+        border-radius: 15px;
+        @include position;
+        height: 600px;
+    }
+
+    &__description {
+        &-container {
+            @include display;
+            @include position;
+        }
+
+        &-title {
+            color: variables.$main-red-color;
+            font-weight: $title-weight;
+            margin-bottom: 3%;
+        }
+        &-location {
+            color: variables.$main-black-color;
+            padding-top: 0;
+            margin-top: 0;
+        }
+    }
+
+    &__host {
+        @include display;
+            &-name {
+                margin-right: 20px;
+                margin-top: 20px;
+                &--first {
+                    @include host-name;
+                    margin-bottom: 0;
+                    padding-bottom: 0;
+                }
+                &--last {
+                    @include host-name;
+                    margin-top: 0;
+                    padding-top: 0;
+                }
+            }
+
+            &-picture {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                object-fit: cover;
+                
+                margin-top: 10%;
+            }
+        }
+    
+    &__tags {
+        @include display;
+        gap: 20px;
+        &-and-rating-container {
+            @include display;
+            @include position;
+        }
+        &-tag {
+            background-color: variables.$main-red-color;
+            color: variables.$main-button-text-color;
+            pointer-events: none;
+        }
+    }
+
+    .fa-active {
+        color: variables.$main-red-color;
+        font-size: 1.5rem;
+    }
+
+    .fa-inactive {
+        color: #e3e3e3;
+        font-size: 1.5rem;
+    }
+}

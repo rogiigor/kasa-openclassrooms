@@ -5,7 +5,9 @@
     text-align: center;
     .not-found-404 {
         color: variables.$main-red-color;
-        font-size: 300px;
+        font-size: 20rem;
+        font-weight: 700;
+        line-height: 1;
     }
 
     .not-found-info {
@@ -17,11 +19,12 @@
 
     .return-to-home {
         color: variables.$main-black-color;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        font-size: 20px;
+        margin-top: 5%;
+        margin-bottom: 5%;
         .anchor-footer {
             color: variables.$main-black-color;
+            font-size: 25px;
+            font-weight: 550;
         }
     }
 }

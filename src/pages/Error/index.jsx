@@ -8,7 +8,7 @@ const Error = () => {
                 <div>404</div>
             </div>
             <div className='not-found-info'>
-                <h3>Oop! The page you're looking for doesn't exist</h3>
+                <h2>Oop! The page you're looking for doesn't exist</h2>
             </div>
             <div className='return-to-home'>
                  <Link to='/' className='anchor-footer'>Return to home page</Link>

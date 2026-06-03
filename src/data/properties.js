@@ -617,3 +617,7 @@ export const propertiesData = [
 		]
 	}
 ]
+
+export const getPropertyById = (id) => {
+	return propertiesData.find(property => property.id === id)
+}

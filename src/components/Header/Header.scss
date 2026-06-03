@@ -11,17 +11,16 @@ $menu-color: black;
 .nav {
     display: flex;
     flex-direction: row;
-    margin-right: 2%;
+    margin-right: 17%;
     margin-top: 1%;
     font-size: 24px;
     font-family: variables.$main-font;
-    gap: 5rem;
+    gap: 3rem;
     align-items: center;
     .nav-link {
         color: $menu-color;
         text-decoration: none;
-        font-weight: 510;
-        font-size: 1.2em;
+        font-weight: 500 510;
         &.active {
             text-decoration: underline;
         }
@@ -35,7 +34,7 @@ $menu-color: black;
 }
 
 .kasa-logo {
-    margin-left: 2%;
+    margin-left: 17%;
     img {
          height: 80px;
          width: 250px;
