@@ -29,10 +29,10 @@ const PropertyDetail = () => {
                 <section className='property-detail__description-container'>
                     <div className='property-detail__description'>
                         <h1 className='property-detail__description-title'>{property.title}</h1>
-                        <h3 className='property-detail__description-location'>{property.location.replace(/[^a-zA-Z0-9- ]/g, "")         // removes all garbage characters
-                                                                                                .replace(/\s+/g, ' ')                   // replaces all multi-spaces with single space
-                                                                                                .replace(/^([^ ]* [^ ]*) /, "$1 - ")    // replace second space with " - "
-                                                                                                .replace(/[ ]/, " , ")                  // replace first space with " , "
+                        <h3 className='property-detail__description-location'>{property.location.replace(/[^a-zA-Z0-9- ]/g, "")         // supprime tous les caractères parasites
+                                                                                                .replace(/\s+/g, ' ')                   // eemplace tous les espaces multiples par un espace unique.
+                                                                                                .replace(/^([^ ]* [^ ]*) /, "$1 - ")    // remplacer le deuxième espace par " - "
+                                                                                                .replace(/[ ]/, " , ")                  // remplacer le premier espace par " , "
                                                                               }</h3>
                     </div>
                     <div className='property-detail__host'>
