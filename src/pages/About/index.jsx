@@ -12,7 +12,7 @@ const About = () => {
 
             <div className="values-container">
                 {valuesData.map((value) => (
-                    <Collapsable key={value.title} title={value.title} info={value.definition} width={"90%"}/>
+                    <Collapsable key={value.title} title={value.title} info={value.definition} width={"1000px"}/>
                 ))}
             </div>
         </div>
