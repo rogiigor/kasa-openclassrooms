@@ -619,5 +619,6 @@ export const propertiesData = [
 ]
 
 export const getPropertyById = (id) => {
-	return propertiesData.find(property => property.id === id)
+	const myProperty = propertiesData.find(property => property.id === id)
+	return propertiesData.find(property => property.id === id.id)
 }

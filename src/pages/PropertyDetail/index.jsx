@@ -1,10 +1,13 @@
+import { useParams } from 'react-router-dom'
 import Collapsable from '../../components/Collapsable'
 import { getPropertyById } from '../../data/properties' 
 import './PropertyDetail.scss'
 
-const id = "b9123946"
+
 
 const PropertyDetail = () => {
+    const id = useParams()
+
     const property = getPropertyById(id);
 
     if (!property) {
