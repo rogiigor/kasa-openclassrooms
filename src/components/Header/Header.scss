@@ -3,40 +3,72 @@
 $menu-color: black;
 
 .header {
-  padding: 1rem 2rem;
-  top: 0;
-  z-index: 100;
-}
+    padding: 1rem 2rem;
+    top: 0;
+    z-index: 100;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    &-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &__kasa-logo {
+            margin-left: 0;
+            height: 60px;
+        }
 
-.nav {
-    display: flex;
-    flex-direction: row;
-    margin-right: 17%;
-    margin-top: 1%;
-    font-size: 24px;
-    font-family: variables.$main-font;
-    gap: 3rem;
-    align-items: center;
-    .nav-link {
-        color: $menu-color;
-        text-decoration: none;
-        font-weight: 500 510;
-        &.active {
-            text-decoration: underline;
+        &__nav {
+            display: flex;
+            flex-direction: row;
+            margin-right: 0;
+            margin-top: 1%;
+            font-size: 24px;
+            font-family: variables.$main-font 500;
+            gap: 8rem;
+            align-items: center;
+            &-link {
+                color: $menu-color;
+                text-decoration: none;
+                // font-weight: 700 7100;
+                font-weight: semi-bold;
+                &.active {
+                    text-decoration: underline;
+                }
+            }
         }
     }
 }
 
-.header-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+// .nav {
+//     display: flex;
+//     flex-direction: row;
+//     margin-right: 17%;
+//     margin-top: 1%;
+//     font-size: 24px;
+//     font-family: variables.$main-font;
+//     gap: 3rem;
+//     align-items: center;
+//     .nav-link {
+//         color: $menu-color;
+//         text-decoration: none;
+//         font-weight: 500 510;
+//         &.active {
+//             text-decoration: underline;
+//         }
+//     }
+// }
 
-.kasa-logo {
-    margin-left: 17%;
-    img {
-         height: 80px;
-         width: 250px;
-    }
-}
+// .header-content {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+// }
+
+// .kasa-logo {
+//     margin-left: 17%;
+//     img {
+//          height: 80px;
+//          width: 250px;
+//     }
+// }
