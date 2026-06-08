@@ -25,15 +25,21 @@
   transform: translate(-10%, -10%);
   color: white;
   font-size: 50px;
+  @media (max-width: 996px) {
+    top: -10%;
+  }
 }
 
 .properties-container {
     background-color: #F2F2F2;
-    // display: flex;
-    // flex-wrap: wrap;
-    // justify-content: space-around;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 20px;
     row-gap: 40px;
+
+    @media (max-width: 996px) {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
 }

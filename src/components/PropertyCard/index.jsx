@@ -8,9 +8,9 @@ const PropertyCard = ({ property }) => {
                 <img
                     src={property.cover}
                     alt={property.title}
-                    className='property-cover-img'
+                    className='property-card__img'
                 />
-                <h3 className='property-title'>{property.title}</h3>
+                <h3 className='property-card__title'>{property.title}</h3>
             </div>
         </Link>
         
