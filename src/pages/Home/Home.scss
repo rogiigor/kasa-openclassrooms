@@ -37,6 +37,9 @@
     border-radius: 20px;
     row-gap: 40px;
 
+     @media (max-width: 1200px) {
+         grid-template-columns: repeat(2, 1fr);
+    }
     @media (max-width: 996px) {
       display: flex;
       flex-direction: column;
