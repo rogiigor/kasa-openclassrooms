@@ -56,7 +56,7 @@ button:focus {
 .info-details {
     margin-top: 0;
     background-color: #F2F2F2;
-    width: 100%;
+    width: var(--cl-width);
     box-sizing: border-box;
     padding: 30px;
 
