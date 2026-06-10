@@ -67,8 +67,8 @@ const PropertyDetail = () => {
                     </div>
                 </section>
                 <section className='property-detail__description-and-amenities'>
-                        <Collapsable title={"Description"} info={property.description} width={"600px"}/>
-                        <Collapsable title={"Amenities"} info={property.equipments} width={"600px"}/>
+                        <Collapsable title={"Description"} info={property.description} width={"90%"}/>
+                        <Collapsable title={"Amenities"} info={property.equipments} width={"90%"}/>
                 </section>
             </div>
         </div>

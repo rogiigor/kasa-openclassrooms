@@ -6,8 +6,8 @@
 }
 
 @mixin position {
-  width: 115%;
-  margin-left: -8%;  
+  width: 100%;
+  margin-left: 0%;  
 }
 
 @mixin host-name {
@@ -47,8 +47,8 @@ $title-weight: 400;
         &-and-amenities {
             display: flex;
             justify-content: space-between;
-            margin-left: -21%;
-            margin-right: -8%;
+            margin-left: -11%;
+            margin-right: -4%;
         }
     }
 
@@ -70,8 +70,8 @@ $title-weight: 400;
             }
 
             &-picture {
-                width: 100px;
-                height: 100px;
+                width: 60%;
+                height: 70%;
                 border-radius: 50%;
                 object-fit: cover;
                 
