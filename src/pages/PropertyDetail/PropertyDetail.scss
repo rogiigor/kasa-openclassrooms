@@ -85,6 +85,10 @@ $title-weight: 400;
     &__host {
         aspect-ratio: 1 / 1;
         @include display;
+        margin-bottom: -20%;
+        @media screen and (max-width: 996px) {
+           margin-bottom: -5%;
+        }
             &-and-rating {
                 @media screen and (max-width: 996px) {
                     @include display;
