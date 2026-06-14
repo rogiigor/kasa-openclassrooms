@@ -1,5 +1,7 @@
 import { useParams } from 'react-router-dom'
 import Collapsable from '../../components/Collapsable'
+import Carousel from '../../components/Carousel'
+import Error from '../Error'
 import { getPropertyById } from '../../data/properties' 
 import './PropertyDetail.scss'
 
@@ -11,24 +13,13 @@ const PropertyDetail = () => {
     const property = getPropertyById(id);
 
     if (!property) {
-        return (
-            <div className="page">
-                <div className="property-not-found">
-                    <h1>Property doesn't exist 🙈</h1>
-                    <p>Property cannot be found.</p>
-                </div>
-            </div>
-        )
+        return <Error />
     }
 
     return (
         <div className='page'>
             <div className='property-detail'>
-                <img
-                     src={property.pictures[0]}
-                     alt={property.title}
-                     className='property-detail__cover'
-                />
+                <Carousel property={property} />
                 <section className='property-detail__description-container'>
                     <div className='property-detail__description'>
                         <h1 className='property-detail__description-title'>{property.title}</h1>

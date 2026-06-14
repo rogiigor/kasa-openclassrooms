@@ -19,13 +19,6 @@
 $title-weight: 400;
 
 .property-detail {
-    &__cover {
-        background-color: variables.$main-background-color;
-        border-radius: 15px;
-        width: 100%;
-        height: 50vh;
-    }
-
     &__description {
         width: 80%;
         @media screen and (max-width: 996px) {
