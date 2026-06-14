@@ -22,7 +22,7 @@ const Collapsable = ({ title, info, width }) => {
         ) : (
             <div className='collapse-container' style={{'--cl-width': `${width}`}}>
                 <button onClick={() => setIsOpen(true)} className='open-button'>
-                    <span open-button__title>{title}</span>
+                    <span className='open-button__title'>{title}</span>
                     <span className={`open-button__hat-shape ${isOpen ? 'rotated' : ''}`}></span>
                 </button>
             </div>  
