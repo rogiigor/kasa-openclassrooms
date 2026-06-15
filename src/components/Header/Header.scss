@@ -30,7 +30,6 @@ $menu-color: black;
             &-link {
                 color: $menu-color;
                 text-decoration: none;
-                // font-weight: 700 7100;
                 font-weight: semi-bold;
                 &.active {
                     text-decoration: underline;
@@ -39,36 +38,3 @@ $menu-color: black;
         }
     }
 }
-
-// .nav {
-//     display: flex;
-//     flex-direction: row;
-//     margin-right: 17%;
-//     margin-top: 1%;
-//     font-size: 24px;
-//     font-family: variables.$main-font;
-//     gap: 3rem;
-//     align-items: center;
-//     .nav-link {
-//         color: $menu-color;
-//         text-decoration: none;
-//         font-weight: 500 510;
-//         &.active {
-//             text-decoration: underline;
-//         }
-//     }
-// }
-
-// .header-content {
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: space-between;
-// }
-
-// .kasa-logo {
-//     margin-left: 17%;
-//     img {
-//          height: 80px;
-//          width: 250px;
-//     }
-// }

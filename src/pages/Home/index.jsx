@@ -7,8 +7,8 @@ const Home = () => {
     return (
         <div className='page'>
             <div className='page-header'>
-                <img src={headerImage} alt="mountains over water" className="header-image" />
-                <h4 className='header-title'>At home, everywhere, and anywhere</h4>
+                <img src={headerImage} alt="mountains over water" className="page-header__image" />
+                <h4 className='page-header__title'>At home, everywhere, and anywhere</h4>
             </div>
 
             <div className='properties-container'>
