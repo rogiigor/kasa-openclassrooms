@@ -53,6 +53,12 @@ Laura, the CTO, launched a complete redesign to move to a full JavaScript stack 
 A briefing is scheduled with the CTO later in the week. To help you familiarize yourself with the key<br> issues involved with the project, you receive the following summary by email:
 </p>
 
+<style>
+  table tbody tr {
+    background-color: #ffffff !important;
+  }
+</style>
+
 <table>
  <thead style="background-color: #f0f0f0;">
     <tr>
@@ -132,49 +138,49 @@ Later that day, you receive an email from Paul, the designer, giving you more in
         </th>
     </tr>
   </thead>
-  <tbody  style="background-color: #f0f0f0;">
-    <tr>
+  <tbody>
+    <tr style="background-color: #f0f0f0 !important;">
         <td>
             Hi!
         </td>
     </tr>
-    <tr>
+    <tr style="background-color: #f0f0f0 !important;">
         <td>
             Welcome to our team! Laura asked me to bring you up to speed on the design of the new version of<br> the website, so here are the main things you should know.
         </td>
     </tr>
-    <tr>
+    <tr style="background-color: #f0f0f0 !important;">
         <td>
             <br>
             <strong>Design</strong>
             </br>
         </td>
     </tr>
-    <tr>
+    <tr style="background-color: #f0f0f0 !important;">
         <td>
             Here are the <a href="https://www.figma.com/design/hgenykibkU4PgVgMc4vjrE/Kasa-EN-2024?node-id=0-1&p=f">mockups in Figma</a> for the interface design. I usually work with logic components in<br> Figma, and Sandra mentioned that this may be helpful to you when working in React. All the<br> resources you’ll need can be found in the mockup (logo, component icons, etc.). Simply click the<br> resource you want and select “Export” in the required format. I’ve put an orange rectangle over the<br> cover images of the accommodation thumbnails that you can replace with the relevant image.
         </td>
     </tr>
-    <tr>
+    <tr style="background-color: #f0f0f0 !important;">
         <td>
             Use <a href="https://www.figma.com/proto/hgenykibkU4PgVgMc4vjrE/Kasa-EN-2024?type=design&node-id=1-142&t=uodOjlRXKBDsAS7I-0&scaling=scale-down&page-id=0%3A1">the website prototypes available here</a> to accurately recreate their style in the application. You<br> will be able to see the required animations for the dropdown menus (Collapse).
         </td>
     </tr>
-    <tr>
+    <tr style="background-color: #f0f0f0 !important;">
         <td>
             <br>
             <strong>Functional Specifications</strong>
             </br>
         </td>
     </tr>
-    <tr>
+    <tr style="background-color: #f0f0f0 !important;">
         <td>
             <br>
                 A few more details on the website’s features:
             </br>
         </td>
     </tr>
-    <tr>
+    <tr style="background-color: #f0f0f0 !important;">
         <td>
             <br>
                 * To scroll through photos in the gallery (Gallery component):<br>
@@ -188,14 +194,14 @@ Later that day, you receive an email from Paul, the designer, giving you more in
             </br>
         </td>
     </tr>
-    <tr>
+    <tr style="background-color: #f0f0f0 !important;">
         <td>
             <br>
             <strong>Good luck with the development. I can’t wait to see the results!</strong>
             </br>
         </td>
     </tr>
-    <tr>
+    <tr style="background-color: #f0f0f0 !important;">
         <td>
             <br>
             <strong>Paul</strong>
