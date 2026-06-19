@@ -60,3 +60,42 @@ Have a great day!
 Laura
 
 CTO @Kasa
+
+Later that day, you receive an email from Paul, the designer, giving you more information about the website’s design and features. 
+
+Subject: Features and Design
+From: Paul
+To: Me
+
+Hi!
+
+Welcome to our team! Laura asked me to bring you up to speed on the design of the new version of the website, so here are the main things you should know.
+
+ 
+
+Design
+
+Here are the mockups in Figma for the interface design. I usually work with logic components in Figma, and Sandra mentioned that this may be helpful to you when working in React. All the resources you’ll need can be found in the mockup (logo, component icons, etc.). Simply click the resource you want and select “Export” in the required format. I’ve put an orange rectangle over the cover images of the accommodation thumbnails that you can replace with the relevant image.
+
+Use the website prototypes available here to accurately recreate their style in the application. You will be able to see the required animations for the dropdown menus (Collapse).
+
+ 
+
+Functional Specifications
+
+A few more details on the website’s features:
+
+    To scroll through photos in the gallery (Gallery component):
+        When the user is viewing the first image and clicks “Previous image”, the gallery displays the last image. 
+        Conversely, when the user is viewing the last image in the gallery and clicks “Next image”, the gallery displays the first image. 
+        If there is only one image, the “Next” and “Previous” buttons and numbering are not displayed.
+    The gallery must always be the same height, as shown in the Figma mockup. Therefore, images will be cropped and centered within the image frame.
+    Collapse: By default, Collapses are closed on page load. 
+    If a Collapse is open, the user can click to close it.
+        Conversely, if a Collapse is closed, clicking will open it.
+
+ 
+
+Good luck with the development. I can’t wait to see the results!
+
+Paul
