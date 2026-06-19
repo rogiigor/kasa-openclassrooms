@@ -16,7 +16,9 @@ The React Compiler is not enabled on this template because of its impact on dev 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 <br>
 <br>
-<h2>Scenario</h2>
+
+# Scenario
+
 <br>
 <br>
 
@@ -52,8 +54,8 @@ A briefing is scheduled with the CTO later in the week. To help you familiarize 
 </p>
 
 <table>
- <thead>
-    <tr style="background-color: #f0f0f0;">
+ <thead style="background-color: #f0f0f0;">
+    <tr>
         <th>
             <strong>Subject:</strong> Kasa Website Redesign Brief<br>
             <strong>From:</strong> Laura<br>                          
@@ -119,8 +121,8 @@ Later that day, you receive an email from Paul, the designer, giving you more in
 <br>
 
 <table>
- <thead>
-    <tr style="color: rgb(255, 250, 238); background-color: rgb(116, 81, 235);">
+ <thead style="color: rgb(255, 250, 238); background-color: rgb(116, 81, 235);">
+    <tr>
         <th>
             <p>
             <strong>Subject:</strong> Features and Design<br>
