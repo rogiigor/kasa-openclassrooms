@@ -38,7 +38,7 @@ This is the perfect opportunity for you to add a great reference to your freelan
 </p>
 <br>
 <br>
-<div  width="768" style="margin-left: 30%;">
+<div  width="768px" style="margin-left: 100px;">
     <img width="180" height="80" alt="image" src="https://github.com/user-attachments/assets/eb6fa72f-e8c4-40b3-bb97-0eb5e3a86ae3" />
 </div>
 <br>
