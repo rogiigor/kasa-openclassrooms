@@ -117,3 +117,69 @@ Later that day, you receive an email from Paul, the designer, giving you more in
 >**Good luck with the development. I can’t wait to see the results!**
 >
 >**Paul**
+
+# Kasa - Real Estate Accommodation Platform 🏠
+
+Kasa is a modern web application for apartment and accommodation rentals built with **React**, **React Router**, and **Sass**. This project was developed as a core milestone for the **OpenClassrooms Web Developer / Front-End Application Developer program**. The interface is meticulously crafted following specific desktop and mobile Figma specifications to establish full responsive behavior.
+
+---
+
+## 🚀 Key Features Implemented
+
+*   **Dynamic Routing:** Seamless single-page transitions managed using `react-router-dom`.
+*   **Custom Gallery Component:** Smooth photo slider mimicking native asset scaling.
+    *   *Looped Bounds:* Navigating backward on the first image loops directly to the final slide, and vice-versa.
+    *   *Dynamic Triggers:* Navigation buttons and page counts systematically self-destruct if the target property listing only contains a single photo.
+*   **Animated Collapse Containers:** Reusable accordion panels handling property details and custom item arrays (such as unit equipment specifications) with stateful toggle transitions.
+*   **Static Mock Database Handling:** Fully decoupled frontend parsing property data natively from local asset extracts for 20 active accommodation targets.
+
+---
+
+## 🛠️ Tech Stack Used
+
+*   **Library:** React (Functional Components + Hooks)
+*   **Routing Engine:** React Router (v6)
+*   **Style Sheet Preprocessor:** Sass / SCSS (Modular Variables)
+*   **Build Bundler Options:** Vite
+
+---
+
+## 💻 Installation & Local Development Setup
+
+To download, install, and execute this web project locally on your machine, follow these steps:
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/rogiigor/kasa-openclassrooms
+```
+
+### 2. Install Project Dependencies
+Run either of these package managers in your root project directory to sync modules:
+```bash
+npm install
+# OR
+yarn install
+```
+Once initialized, navigate your local browser to: `http://localhost:5173`.
+
+---
+
+## 📁 Source Code Directory Structure
+
+```text
+src/
+├── assets/          # Shared layout logo files and functional icon vector assets
+├── components/      # Reusable UI widgets (Header, Footer, Collapse, Gallery, Card)
+├── data/            # Local JSON listing data serving as the temporary local API extract
+├── pages/           # Base view components (Home, About, AccommodationDetail, NotFound404)
+├── styles/          # Universal SCSS styles, colors, layouts, and responsive mixins
+├── main.jsx         # Root structural layout mapping React Router route entries
+└── index.html       # DOM injection mount entry point
+```
+
+---
+
+## 📄 Project Guidelines & Constraints
+
+*   **Responsive Scaling:** Content adapts continuously across explicit desktop, tablet, and mobile device grid points.
+*   **Design Prototypes:** Pixel-perfect compliance mapping Figma font systems, margins, elements, and CSS animations.
