@@ -9,13 +9,30 @@ $menu-color: black;
     max-width: 1500px;
     margin: 0 auto;
     padding-top: 2rem;
+
     &-content {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+
         &__kasa-logo {
             margin-left: 0;
             height: 60px;
+            width: 210px; // new
+            background-image: url('../../assets/logo.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center-left;
+
+            @media (max-width: 700px) {
+                height: 30px;
+                width: 105px;
+                background-image: url('../../assets/logo_mobile.png');
+            }
+        }
+
+        @media (max-width: 700px) {
+            height: 30px;            
         }
 
         &__nav {
@@ -27,6 +44,12 @@ $menu-color: black;
             font-family: variables.$main-font 500;
             gap: 8rem;
             align-items: center;
+
+            @media (max-width: 700px) {
+                gap: 2rem;
+                font-size: 100%;            
+            }
+
             &-link {
                 color: $menu-color;
                 text-decoration: none;

@@ -4,9 +4,18 @@
     object-fit: cover;
     filter: brightness(80%);
     border-radius: 20px;
+
+    @media (max-width: 700px) {
+        height: 150px;
+    }
 }
 
 .values-container {
     margin-top: 3%;
+
+    @media (max-width: 996px) {
+       display: flex;
+       flex-direction: column; 
+    }
 }
 

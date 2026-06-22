@@ -51,6 +51,10 @@ button:focus {
     margin-bottom: 20px;
     margin-left: 10%;
     width: var(--cl-width);
+
+    @media (max-width: 996px) {
+        height: fit-content;
+    }
 }
 
 .info-details {

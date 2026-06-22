@@ -3,6 +3,10 @@
   margin: 0 auto;
   padding: 2rem;
 
+  @media (max-width: 996px) {
+      max-width: 100%;    
+  }
+
     &-header {
     font-size: 2.5rem;
     margin: 0 0 0.5rem 0;
@@ -21,6 +25,10 @@
       border-radius: 20px;
 
       display: block;
+
+      @media (max-width: 996px) {
+        height: 70%;
+      }      
     }
 
     &__title {
@@ -34,11 +42,17 @@
       z-index: 1;
       text-align: center;
 
-         @media (max-width: 996px) {
-            justify-self: start;
-            text-align: left;
-            margin-left: 2rem;
-        }
+      @media (max-width: 996px) {
+        justify-self: start;
+        text-align: left;
+        margin-left: 2rem;
+        font-size: 100%;
+        margin-bottom: 20%;
+      }
+
+      @media (max-width: 700px) {
+        font-size: 90%;
+      }
       
     }
   }
