@@ -11,7 +11,7 @@ import './index.scss'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Router>
+    <Router basename="/kasa-openclassrooms">
       <Header />
         <Routes>
           <Route path="/" element={<Home />} />
